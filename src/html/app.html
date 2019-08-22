@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Symphony Extension App Share Example</title>
+        <link rel="stylesheet" type="text/css" href="https://symphony.com/resources/api/v1.1/symphony-style.css">
+    </head>
+
+    <body>
+        <div>
+            <table>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Example 1:</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Id: example-12345</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Title: Example 12345</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Subtitle: This is the subtitle for Article Example 12345</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Blurb: This is a quick summary of Article Example 12345</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Publisher: Sample Share App</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Author: Symphony Example</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Date: 1/23/19</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td><button id="share-example-1">Share Example 1</button></td></tr>
+            </table>
+        </div>
+    </br>
+        <div>
+            <table>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Example 2:</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Id: example-6789</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Title: Example 6789</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Subtitle: This is the subtitle for Article Example 6789</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Blurb: This is a quick summary of Article Example 6789</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Publisher: Sample Share App</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Author: Symphony Example</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Date: 1/24/19</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td><button id="share-example-2">Share Example 2</button></td></tr>
+            </table>
+        </div>
+        <br/>
+        <div>
+            <table>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Share this website:</td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Site:</td><td><input type="text" id="siteToShare"/></td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Title:</td><td><input type="text" id="sharedSiteTitle"/></td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Subtitle:</td><td><input type="text" id="sharedSiteSubtitle"/></td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Blurb:</td><td><input type="text" id="sharedSiteBlurb"/></td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Publisher:</td><td><input type="text" id="sharedSitePublisher"/></td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td>Author:</td><td><input type="text" id="sharedSiteAuthor"/></td></tr>
+                <tr class="tempo-text-color--normal tempo-ui--background"><td><button id="shareSite">Share Site</button></td></tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="https://www.symphony.com/resources/api/v1.0/symphony-api.js" charset="utf-8"></script>
+        <script type="text/javascript" src="app.js" charset="utf-8"></script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "applications": [
+        {
+        "type": "sandbox",
+        "id": "sym-support-share-sample",
+        "name": "Symphony Support Share Sample",
+        "blurb": "This is a barebones sample on how to share and open modules within Symphony",
+        "publisher": "Symphony Support",
+        "url": "https://localhost:3000/controller.html",
+        "domain": "localhost",
+        "icon": "https://localhost:3000/news-icon.png"
+        }
+    ]
+}
