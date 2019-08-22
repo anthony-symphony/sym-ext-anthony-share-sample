@@ -9,6 +9,7 @@ This is a quick and barebones example on how to use the Symphony share feature t
 
 ## How to run
 
+* Start server by running command 'npm start'
 * First load https://localhost:3000/bundle.json and accept security prompt.
 * After accepting security prompt navigate to https://podsubdomain.symphony.com/client/index.html?bundle=https://localhost:3000/bundle.json
 * Accept the "Warning: Unauthorized App(s)" dialog

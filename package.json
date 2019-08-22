@@ -1,5 +1,5 @@
 {
-  "name": "sym-ext-anthony-share-sample",
+  "name": "sym-support-share-sample",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anthony-symphony/sym-ext-anthony-share-sample.git"
+    "url": "git+https://github.com/anthony-symphony/sym-support-share-sample.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anthony-symphony/sym-ext-anthony-share-sample/issues"
+    "url": "https://github.com/anthony-symphony/sym-support-share-sample/issues"
   },
-  "homepage": "https://github.com/anthony-symphony/sym-ext-anthony-share-sample#readme",
+  "homepage": "https://github.com/anthony-symphony/sym-support-share-sample#readme",
   "devDependencies": {},
   "dependencies": {
     "cors": "^2.8.5",
