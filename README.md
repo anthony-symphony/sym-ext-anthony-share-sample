@@ -1,6 +1,6 @@
 # Extensions Share Example
 
-This is a quick and barebones example on how to use the Symphony share feature to open up shared pages within Symphony
+This is a quick and barebones example on how to use the Symphony share feature to open up shared pages within Symphony. Code is provided AS-IS and is to be used as reference.
 
 ## Prerequisites
 
